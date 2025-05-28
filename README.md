@@ -1,13 +1,11 @@
-# Piatti Operative - App
-Restaurants front-end mobile app, Made with love by DIGO AI
-*This is a **💙  Flutter** project*
+# Flutter Riverpod - Template
+This is a project template to make a flutter application using Riverpod as state manager and applying clean architecture principles.
+*This is a **💙  Flutter** project* 
 
 ## Technologies
   - 💙 Flutter
-  - 🛜 Dio
   - 🚏 GoRouter
-  - ♻️ Riverpod
-  - 🗂️ SharedPreferences
+  - ♻️ Riverpo
 
 ## How to run
 > [!NOTE]
@@ -25,7 +23,7 @@ Restaurants front-end mobile app, Made with love by DIGO AI
  ```
 
 ### 🚀 Deploy
-To deploy the application on the Android platform you need the `secret key` and for the iOS platform, you need to log in to `Xcode` with the `Digo Team`.
+To deploy the application on the Android platform you need the `secret key` and for the iOS platform, you need to log in to `Xcode` with the `Organization Team`.
 
 #### ✅ Requirements
  
@@ -33,12 +31,12 @@ To deploy the application on the Android platform you need the `secret key` and 
 
  **Android**
 ```
-flutter pub run change_app_package_name:main ai.digo.ibus_app --android
+flutter pub run change_app_package_name:main com.exampple.flutter_app --android
 ```
 
 **iOS**
 ```
-flutter pub run change_app_package_name:main ai.digo.ibus --ios
+flutter pub run change_app_package_name:main com.exampple.flutter-app --ios
 ```
 
  - [ ] To change application `launcher icon`
